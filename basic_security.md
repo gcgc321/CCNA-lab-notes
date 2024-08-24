@@ -9,9 +9,10 @@
 - `enable password ccna`: Set the password in plaintext.
 - Test the configuration by exiting twice (`exit`).
 
-![[Screenshot 2024-08-24 at 4.36.19 PM.png]]
+
 
 ---
+<img width="1680" alt="Screenshot 2024-08-24 at 4 36 19 PM" src="https://github.com/user-attachments/assets/3cbd19ed-cef7-4828-a2ea-8f9794a6c01b">
 
 ### **Step 3: View Password in Running Configuration**
 - `show running-configuration`: View the password in the running configuration.
@@ -31,10 +32,10 @@
 4. **View the Running Configuration:**
    - Use `show running-config` from privileged exec mode (`sh run`).
    - Alternatively, in configuration terminal, use `do sh run`.
-![[Screenshot 2024-08-24 at 4.40.18 PM.png]]
 
 
 ---
+<img width="1680" alt="Screenshot 2024-08-24 at 4 40 18 PM" src="https://github.com/user-attachments/assets/97b12d41-2e9e-408b-9483-8e1fac1e0e28">
 
 ### **Step 5: Enable More Secure Encryption (MD5)**
 - **Use MD5 Encryption:**
@@ -43,7 +44,8 @@
 - **Reminder:** Be in global privileged exec mode to see the running configuration.
 
 ---
-![[Screenshot 2024-08-24 at 4.41.14 PM.png]]
+<img width="1680" alt="Screenshot 2024-08-24 at 4 41 14 PM" src="https://github.com/user-attachments/assets/221d11e4-70ab-4b74-ae3a-d8e05ecbf948">
+
 ### **Step 6: Save Running Configuration to Startup**
 You can save the running configuration to startup configuration using the following commands:
 ```bash
